@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #303841;
+  color: #f0f0f0;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #be3144;
+  height: 70px;
+}
+
+.nav {
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f0f0f0;
+  padding: 20px;
+  font-size: larger;
+  height: 100%;
+}
+
+.nav-link:hover {
+  background-color: #45567d;
+}
+
+.des-content {
+  text-align: center;
+}
+
+.description {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+h1 {
+  font-size: 6vh;
+}
+
+#des-paragraph {
+  font-size: 3vh;
+  color: #be3144;
+}
+
+#projects {
+  background-color: #45567d;
+}
+
+.project-header {
+  text-align: center;
+  border-bottom: #f0f0f0 2px solid;
+  width: 17em;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+.project-item {
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 3em;
+  cursor: pointer;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.7);
+}
+
+.project-paragraph {
+  color: #f0f0f0;
+  padding: 20px;
+  font-size: larger;
+  text-align: center;
+  background-color: #303841;
+  box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.7);
+}
+
+a {
+  text-decoration: none;
+}
+
+.than-sign {
+  color: transparent;
+}
+
+.project-item:hover .than-sign {
+  color: #be3144;
+  transition: ease-in 0.5s;
+}
+
+button {
+  display: inline;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 50px;
+  color: #f0f0f0;
+  background-color: #303841;
+  height: 50px;
+  width: 150px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.7);
+  transition: ease-in 0.4s;
+  cursor: pointer;
+  font-size: 2.5vh;
+}
+
+button:hover {
+  background-color: #be3144;
+}
+
+#work {
+  margin-top: 70px;
+}
+
+.social-links {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding-right: 20px;
+  margin-top: 40px;
+  font-size: 2.5vh;
+  margin-bottom: 70px;
+}
+
+#social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#facebook,
+#git-hub,
+#twitter,
+#send-mail,
+#call-me {
+  transition: transform 0.8s;
+}
+
+#facebook:hover,
+#git-hub:hover,
+#twitter:hover,
+#send-mail:hover,
+#call-me:hover {
+  transform: translateY(20%);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: #be3144 3px solid;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
